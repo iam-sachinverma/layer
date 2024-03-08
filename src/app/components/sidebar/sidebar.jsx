@@ -9,7 +9,22 @@ import Overlay from "ol/Overlay.js";
 import { unByKey } from "ol/Observable.js";
 import "./sidebar.css";
 
-// Sidebar component for interacting with the map by drawing shapes and measuring distances.
+/**
+ * Sidebar Component
+ *
+ * This component provides functionality for interacting with the map by drawing shapes
+ * and measuring distances.
+ *
+ * Props:
+ *   - map: Reference to the OpenLayers map instance.
+ *
+ * State:
+ *   None
+ *
+ * @param {Object} props - Props for the Sidebar component.
+ * @param {Object} props.map - Reference to the OpenLayers map instance.
+ * @returns {JSX.Element} The rendered Sidebar component.
+ */
 const Sidebar = ({ map }) => {
   // Refs for DOM elements and interactions
   const typeSelectRef = useRef(null);

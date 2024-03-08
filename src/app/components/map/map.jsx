@@ -14,6 +14,21 @@ import View from "ol/View.js";
 import "ol/ol.css";
 import "./map.css";
 
+/**
+ * Map Component
+ *
+ * This component represents a map rendered using OpenLayers library.
+ *
+ * Props:
+ *   - returnRef: A callback function to return the reference to the map instance.
+ *
+ * State:
+ *   - map: The reference to the OpenLayers map instance.
+ *
+ * @param {Object} props - Props for the Map component ref.
+ * @param {Function} props.returnRef - Callback function to return the reference to the map instance.
+ * @returns {JSX.Element} The rendered Map component.
+ */
 const Map = ({ returnRef }) => {
   // State and ref initialization
   const [map, setMap] = useState(null);
