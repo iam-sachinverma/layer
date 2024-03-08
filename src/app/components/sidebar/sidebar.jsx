@@ -211,11 +211,11 @@ const Sidebar = ({ map }) => {
     <div className="sidebar">
       <div className="select">
         <label htmlFor="selectShape">
-          Draw polygon, point and line on the map:
+          Draw polygon, pin-point and line on the map:
         </label>
         <select className="select-shape" id="selectShape" ref={typeSelectRef}>
           <option value="None">None</option>
-          <option value="Point">Point</option>
+          <option value="Point">Pin Point</option>
           <option value="LineString">LineString</option>
           <option value="Polygon">Polygon</option>
         </select>

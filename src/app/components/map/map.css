@@ -6,14 +6,27 @@
 .map .ol-full-screen {
   left: 0.5rem !important;
   right: unset;
+  padding: 0.3em;
+}
+
+.map .ol-full-screen button {
+  border-radius: 50%;
 }
 
 .map .ol-zoom {
   top: 3rem;
+  padding: 0.3em 0.3em 0.8em 0.3em;
+}
+
+.map .ol-zoom button {
+  border-radius: 50%;
+  margin-top: 0.5em;
 }
 
 .map .ol-zoomslider {
   top: 7rem;
+  padding: 0.3em;
+  margin-top: 1.5rem;
 }
 
 .map .ol-attribution.ol-uncollapsible {
